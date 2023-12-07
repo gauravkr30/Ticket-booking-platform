@@ -1,0 +1,185 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('eventbg.png') center/cover fixed no-repeat;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #343a4000;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    background-color: #af9b7c47;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1em;
+    margin: 0 1em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #17a2b8;
+}
+
+.hero {
+    background-image: url('#');
+    background-size: cover;
+    background-position: center;
+    color: #1d659a;
+    text-align: center;
+    padding: 5em 2em;
+    margin-bottom: 2em;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+section {
+    padding: 2em;
+}
+
+.featured-events {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.lol1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.event-card {
+    /* background-color: #fff; */
+    
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    width: 300px;
+    background-image: url("Yulia\ Savicheva.jpg");
+}
+
+.lol {
+    /* background-color: #fff; */
+    
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    width: 300px;
+    background-image: url("Kristina\ Rihanoff1.jpg" ) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+.event-card h2 {
+    color:white;
+}
+
+.event-card p {
+    color: white;
+}
+.lol h2 {
+    color: white;
+}
+.lol1 p {
+    color: white;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.call-to-action {
+    background-color: #00142a;
+    color: #fff;
+    text-align: center;
+    padding: 3em 2em;
+    
+}
+
+.call-to-action h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.call-to-action p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.lol3{
+    
+        /* background-color: #fff; */
+        
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        margin: 1em;
+        padding: 1em;
+        text-align: center;
+        transition: transform 0.3s ease-in-out;
+        width: 300px;
+        background-image: url("magic.jpg" ) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .lol3 h2 {
+        color: white;
+    }
+    .lol2 p {
+        color: white;
+    }
+    .lol2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }

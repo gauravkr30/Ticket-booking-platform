@@ -1,0 +1,109 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ff4081, #17a2b8); /* Gradient background */
+    color: #fff;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.482);
+    color: #17a2b8; /* Aqua color */
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    background-color: #8c9cad70;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1em;
+    margin: 0 1em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff4081; /* Pink color on hover */
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+.signup-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 600px;
+}
+
+.signup-container h2 {
+    color: #ff4081;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.signup-container label {
+    color: #333;
+    display: block;
+    margin: 1em 0 0.5em;
+}
+
+.signup-container input {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.signup-container button {
+    background: linear-gradient(135deg, #ff4081, #17a2b8);
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+    width: 100%;
+}
+
+.signup-container button:hover {
+    background: linear-gradient(135deg, #17a2b8, #ff4081);
+}
+
+.login-link {
+    margin-top: 1em;
+    color:black;
+}
+
+.login-link a {
+    color: #ff4081;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.login-link a:hover {
+    color: #17a2b8;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,75 @@
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('contact2.jpg') center/cover fixed no-repeat;
+            color: #fff;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.268);
+            color: #17a2b8; /* Aqua color */
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.34);
+            color: #fff;
+            text-align: center;
+            padding: 0.5em;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 1em;
+            margin: 0 1em;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff4081; /* Pink color on hover */
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+
+        .contact-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            padding: 2em;
+            margin: 2em auto;
+            max-width: 600px;
+        }
+
+        .contact-container h2 {
+            color: #17a2b8;
+            font-size: 2em;
+            margin-bottom: 1em;
+        }
+
+        .contact-container p {
+            color: #333;
+            font-size: 1.2em;
+            margin-bottom: 1em;
+        }
+
+        .contact-container img {
+            width: 100%;
+            border-radius: 8px;
+            margin: 1em 0;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }

@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('about.jpg') center/cover no-repeat;
+    color: #fff; /* Font color for the text */
+    font-family: 'Arial', sans-serif; /* Choose your preferred font family */
+}
+
+header {
+    background: rgba(0, 0, 0, 0.219); /* Background color with opacity for header */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.349);
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1em;
+    margin: 0 1em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff4081; /* Pink color on hover */
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+footer {
+    margin-top: 300px;
+    background: rgba(0, 0, 0, 0.7); /* Background color with opacity for footer */
+    padding: 20px;
+    text-align: center;
+}

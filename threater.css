@@ -1,0 +1,134 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    background: url('threaterbg3.jpg') center/cover fixed no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    color: #fffefe;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1em;
+    margin: 0 1em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #17a2b8;
+}
+
+.theater-section {
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+}
+
+.theater-info {
+    text-align: center;
+    max-width: 600px;
+    margin-left: 429px;
+   
+
+}
+
+.theater-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin: 1em;
+    margin-left: 550px;
+    padding: 1em; 
+    text-align: center; 
+    transition: transform 0.3s ease-in-out;
+    width: 300px;
+    
+}
+
+.theater-card:hover {
+    transform: scale(1.05);
+}
+
+.theater-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.theater-card h3 {
+    color: #ff4081;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.theater-card p {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.theater-card button {
+    background: linear-gradient(135deg, #ff4081, #17a2b8);
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.theater-card button:hover {
+    background: linear-gradient(135deg, #17a2b8, #ff4081);
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+header {    
+    background-color: #b7004600; /* Aqua color */
+    color: #fff; /* White text color */
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(255, 142, 98, 0.338); /* Blue color */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1em;
+    margin: 0 1em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff4081; /* Pink color on hover */
+}
